@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'application' 
+}
+repositories {
+    jcenter()
+}
+mainClassName = 'com.subnext.java8.App'
+dependencies {
+    compile 'org.projectlombok:lombok:+'
+    testCompile 'junit:junit:+'
+}
